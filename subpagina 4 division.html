@@ -4,16 +4,93 @@
     <title>División</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header, footer {
+            background-color: #e4e15a;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-family: cursive;
+        }
+
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .section h3 {
+            color: #000000;
+            margin-top: 20px;
+        }
+
+        .img-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .img-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin: 30px;
+        }
+
+        .button-container a {
+            display: inline-block;
+            color: #000000;
+            font-size: 20px;
+            text-transform: uppercase;
+            text-decoration: none;
+            background-color: #ffffff;
+            padding: 20px 35px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-container a:hover {
+            background-color: #ddd;
+        }
+
+        footer {
+            background-color: #e4e15a;
+            color: #000000;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
-<body style="text-align: center;">
+<body>
     <header>
-        <h1 style="background-color: #e4e15a; color: #fff; padding: 20px; text-align: center; font-family: cursive;">
-            ¿Qué es la división?
-        </h1>
+        <h1>¿Qué es la división?</h1>
     </header>
 
-    <div class="section" style="background-color: #fff; padding: 20px; margin: 20px; border-radius: 5px;">
-        <h3 style="color: #000000; text-align: center; margin-top: 20px;">
+    <div class="section">
+        <h3>
             La división es una operación matemática básica que consiste en distribuir o repartir una cantidad en partes iguales o según una proporción determinada. En términos simples, es el proceso de encontrar cuántas veces un número (llamado dividendo) cabe en otro número (llamado divisor) y cuál es el resultado de esta distribución.
 
             Por ejemplo, si tienes 10 manzanas y quieres repartirlas en grupos de 2, la división te permite encontrar cuántos grupos de 2 hay en 10 manzanas, lo que resulta en 5 grupos.
@@ -28,37 +105,33 @@
         </h3>
     </div>
 
-    <div style="text-align: center;">
-        <img src="https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/long-division-02-1657859654.png" height="600" width="500" style="margin: 20px;">
+    <div class="img-container">
+        <img src="https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/long-division-02-1657859654.png" height="600" width="500" alt="División">
     </div>
 
-    <div style="text-align: center;">
-        <h1 style="background-color: #e4e15a; color: #fff; padding: 20px; text-align: center; font-family: cursive;">
-            División en fracciones
-        </h1>
+    <div class="section">
+        <h1>División en fracciones</h1>
     </div>
 
-    <div class="section" style="background-color: #fff; padding: 20px; margin: 20px; border-radius: 5px;">
-        <h3 style="color: #000000; text-align: center; margin-top: 20px;">
+    <div class="section">
+        <h3>
             La división de fracciones es una operación matemática fundamental que permite dividir una fracción por otra, facilitando la resolución de problemas en diversas áreas de las matemáticas y las ciencias. Esta operación es esencial para comprender y manejar relaciones y proporciones, así como para simplificar expresiones algebraicas y resolver ecuaciones.
         </h3>
     </div>
 
-    <div style="text-align: center;">
-        <img src="https://aulaprende.com/wp-content/uploads/2019/01/division-de-fracciones.png" height="300" width="500" style="margin: 20px;">
+    <div class="img-container">
+        <img src="https://aulaprende.com/wp-content/uploads/2019/01/division-de-fracciones.png" height="300" width="500" alt="División de fracciones">
     </div>
 
-    <div style="text-align: center; margin: 30px;">
-        <a href="pagina principal.html" style="display: inline-block; color: #000000; font-size: 20px; text-transform: uppercase; text-decoration: none; background-color: #ffffff; padding: 20px 35px;">
-            Página principal
-        </a>
+    <div class="button-container">
+        <a href="index.html">Página principal</a>
     </div>
 
-    <div style="text-align: center; margin: 30px;">
-        <img src="https://static.vecteezy.com/system/resources/previews/007/231/420/non_2x/arrow-back-icon-which-is-suitable-for-commercial-work-and-easily-modify-or-edit-it-vector.jpg" width="100" height="100">
+    <div class="img-container">
+        <img src="https://static.vecteezy.com/system/resources/previews/007/231/420/non_2x/arrow-back-icon-which-is-suitable-for-commercial-work-and-easily-modify-or-edit-it-vector.jpg" width="100" height="100" alt="Flecha de regreso">
     </div>
 
-    <footer style="background-color: #e4e15a; color: #000000; padding: 10px; text-align: center; position: fixed; bottom: 0; width: 100%;">
+    <footer>
         Profe pongame 5
     </footer>
 </body>
